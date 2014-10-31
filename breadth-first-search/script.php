@@ -4,13 +4,9 @@ function DisplayBreadthTree($nodes) {
     $children = [];
 
     foreach($nodes as $node) {
-        $node['checked'] = true;
         echo $node['letter'];
         foreach ($node['children'] as $child) {
-            if (!$child['checked']) {
-                $children[] = $child;
-                $child['checked'] = true;
-            }
+            $children[] = $child;
         }
     }
     echo PHP_EOL;
