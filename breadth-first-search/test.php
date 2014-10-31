@@ -31,7 +31,7 @@
         )
     );
 
-    DisplayBreadthTree($array);
+    DisplayDepthTree($array);
 
     $array = array(
         'root' => array(
@@ -67,7 +67,7 @@
         )
     );
 
-    DisplayBreadthTree($array);
+    DisplayDepthTree($array);
 
     $array = array(
         'root' => array(
@@ -116,4 +116,4 @@
         )
     );
 
-    DisplayBreadthTree($array);
+    DisplayDepthTree($array);
