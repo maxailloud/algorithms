@@ -2,8 +2,6 @@
 
     function selectionSort($elements) {
         if (0 < sizeof($elements)) {
-            $min = $elements[0];
-            $indexMin = 0;
             $countElements = sizeof($elements);
             for ($i = 0; $i < $countElements - 1; $i++) {
                 $indexMin = $i;
